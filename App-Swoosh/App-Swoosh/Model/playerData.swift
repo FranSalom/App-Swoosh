@@ -7,3 +7,9 @@
 //
 
 import Foundation
+
+struct Player{
+    var ligaSelecionada: String?
+    var skillSeleccionada: String?
+    
+}
