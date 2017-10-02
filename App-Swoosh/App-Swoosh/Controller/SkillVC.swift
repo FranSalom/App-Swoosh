@@ -10,26 +10,37 @@ import UIKit
 
 class SkillVC: UIViewController {
 
+    var player: Player!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        
+        
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    @IBAction func finishSegue(_ sender: Any) {
+        performSegue(withIdentifier: "FinishVcSegue", sender: self)
+        
+    }
+    @IBAction func onMensTapped(_ sender: Any) {
+        dataRecolectada(skill: "Begginer")
     }
     
-
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+    @IBAction func onWomansTapped(_ sender: Any) {
+        dataRecolectada(skill: "Baller")
     }
-    */
-
+    
+    
+    func dataRecolectada(skill: String){
+        player.skillSeleccionada = skill
+    }
+    
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if let finishVC = segue.destination as? FinishVC{
+            finishVC.player = player
+            
+        }
+    }
+    
 }

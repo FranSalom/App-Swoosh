@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3E37D7411F829EE50046AE28 /* FinishVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E37D7401F829EE50046AE28 /* FinishVC.swift */; };
 		3E3C901F1F81D7BF008627C4 /* LeagueVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E3C901E1F81D7BF008627C4 /* LeagueVC.swift */; };
 		3E3C90211F81D7D2008627C4 /* SkillVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E3C90201F81D7D2008627C4 /* SkillVC.swift */; };
 		3E57DCC11F7FFC2700388467 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E57DCC01F7FFC2700388467 /* AppDelegate.swift */; };
@@ -19,6 +20,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		3E37D7401F829EE50046AE28 /* FinishVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FinishVC.swift; sourceTree = "<group>"; };
 		3E3C901E1F81D7BF008627C4 /* LeagueVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LeagueVC.swift; sourceTree = "<group>"; };
 		3E3C90201F81D7D2008627C4 /* SkillVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SkillVC.swift; sourceTree = "<group>"; };
 		3E57DCBD1F7FFC2700388467 /* App-Swoosh.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "App-Swoosh.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -49,6 +51,7 @@
 				3E57DCC21F7FFC2700388467 /* WelcomeVC.swift */,
 				3E3C901E1F81D7BF008627C4 /* LeagueVC.swift */,
 				3E3C90201F81D7D2008627C4 /* SkillVC.swift */,
+				3E37D7401F829EE50046AE28 /* FinishVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -174,6 +177,7 @@
 			files = (
 				3E57DCC31F7FFC2700388467 /* WelcomeVC.swift in Sources */,
 				3E3C901F1F81D7BF008627C4 /* LeagueVC.swift in Sources */,
+				3E37D7411F829EE50046AE28 /* FinishVC.swift in Sources */,
 				3E57DCC11F7FFC2700388467 /* AppDelegate.swift in Sources */,
 				3E3C90211F81D7D2008627C4 /* SkillVC.swift in Sources */,
 				3E5855D51F81EB8700AA7C5C /* playerData.swift in Sources */,
